@@ -37,7 +37,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 import { Deserialiser, Service, StatusCode } from "./internal";
 import { ServiceProfile, ServiceType } from "@iiif/vocabulary/dist-commonjs";
 import { OK, MOVED_TEMPORARILY, UNAUTHORIZED } from "@edsilv/http-status-codes/dist-commonjs";
-import "isomorphic-unfetch";
 var Utils = /** @class */ (function () {
     function Utils() {
     }

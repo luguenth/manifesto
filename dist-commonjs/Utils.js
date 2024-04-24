@@ -40,7 +40,6 @@ exports.Utils = void 0;
 var internal_1 = require("./internal");
 var dist_commonjs_1 = require("@iiif/vocabulary/dist-commonjs");
 var dist_commonjs_2 = require("@edsilv/http-status-codes/dist-commonjs");
-require("isomorphic-unfetch");
 var Utils = /** @class */ (function () {
     function Utils() {
     }

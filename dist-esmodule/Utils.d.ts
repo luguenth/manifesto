@@ -1,6 +1,5 @@
 import { IAccessToken, IExternalResource, IIIFResource, IManifestoOptions, JSONLDResource, Service, StatusCode, TreeNode } from "./internal";
 import { MediaType, ServiceProfile } from "@iiif/vocabulary/dist-commonjs";
-import "isomorphic-unfetch";
 export declare class Utils {
     static getMediaType(type: string): MediaType;
     static getImageQuality(profile: ServiceProfile): string;
